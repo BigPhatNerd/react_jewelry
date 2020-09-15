@@ -15,17 +15,8 @@ const Product = () => {
               <div class="wrapper">
                 <div class="title">product.name</div>
                 <p>product.description</p>
+                <div class="tags">product.tags</div>
                 <span class="price">product.price</span>
-                <div class="content size">
-                  <div class="name size-name">Size</div>
-                    <div class="size-value">
-                      <span class="color">XS</span>
-                      <span class="color">S</span>
-                      <span class="active">M</span>
-                      <span class="color">L</span>
-                      <span class="color">XL</span>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

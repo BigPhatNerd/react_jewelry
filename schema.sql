@@ -16,4 +16,4 @@ PRIMARY KEY ( `id` )
 
 );
 
-SELECT * FROM products
+SELECT * FROM products;
