@@ -1,5 +1,5 @@
-import React, { Component } from './node_modules/react';
-import { MenuItems } from "./MenuItems"
+import React, { Component } from 'react';
+import { MenuItems } from "./Menuitems"
 import { Button } from "../Button"
 import './Navbar.css'
 

@@ -10,7 +10,7 @@ import Header from './layouts/header/header';
 // import FAQ from './pages/faq';
 // import Account from './pages/account';
 import Navbar from './layouts/navbar/Navbar'
-import FooterContainer from './layouts/footer/footer.jsx';
+import FooterContainer from './layouts/footer/footer.js';
 import Contact from './layouts/contact/contact'
 // import Faq from './pages/Faq';
 

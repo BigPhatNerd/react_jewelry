@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
   font-family: 'Poppins', sans-serif;
 }
 html,body{
@@ -10,11 +10,11 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  background: white;
 }
 ::selection{
   color: #fff;
-  background: #1cc7d0;
+  background: white;
 }
 .wrapper{
   height: 400px;
@@ -62,7 +62,7 @@ html,body{
   width: 150px;
   padding: 5px;
   border-radius: 50%;
-  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  background: whitesmoke;
 }
 .wrapper .back-face .info{
   text-align: center;
@@ -84,11 +84,11 @@ html,body{
   line-height: 38px;
   border: 2px solid transparent;
   border-radius: 50%;
-  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  background: white;
   transition: all 0.5s ease;
 }
 .back-face ul a:hover{
-  color: #1cc7d0;
-  border-color: #1cc7d0;
+  color: black;
+  border-color: white;
   background: linear-gradient(375deg, transparent, transparent);
 }
