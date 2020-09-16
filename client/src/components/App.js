@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
-import * as ReactBootstrap from "react-bootstrap";
+// import * as ReactBootstrap from "react-bootstrap";
 import Shop from './pages/Shop';
 import Home from './pages/Home';
 import About from './pages/About';

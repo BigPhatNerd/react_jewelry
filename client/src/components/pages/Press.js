@@ -6,7 +6,7 @@ const Press = () => {
       <div>
           <hr />
         <div class="container">
-            <div class="image">
+            <div class="img">
                 <img src={ Pic } />
                 //press images//
                 

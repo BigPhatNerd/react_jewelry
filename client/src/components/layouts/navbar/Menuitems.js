@@ -26,7 +26,7 @@ export const MenuItems = [
     },
     {
         title: 'Contact Us',
-        url: '/Contact Us',
+        url: '/ContactUs',
         cName: 'nav-links'
     },
     {
@@ -36,7 +36,7 @@ export const MenuItems = [
     },
     {
         title: 'Sign up',
-        url: '#',
+        url: '/Sign-Up',
         cName: 'nav-links-mobile'
     }
 
