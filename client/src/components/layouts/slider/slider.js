@@ -1,23 +1,25 @@
 import React from 'react';
-// import { Link } from 'react-router-dom'
-import './style.css'
+// import { Product.. } from './component/product..';  (need to find the component)
 
-// Product or change to Jewelry //
-const Product = () => {
+import './cart.css'
+
+// before page is product.js >> then 'add to cart' your'e brought here where you items are display with tags of title. prodect description, price, total>> then click a button to go to another componet to pay //
+let Cart = (props) => {
+    const (cartOpen, closeCart, handleCartNav)=props.valueProps;
     return (
-      <div className="wrapper">
-        <div className="card front-face">
-          <div class="image"></div>
-          <img src="{product.img.src}"></img></div>
-        <div className="card back-face">
-          <div className="info">
-          <div class="title">product.name</div>
-            <div class="image">
-            <img src="{product.img.src}" alt="{product description}"></img>
-          </div>
-          </div>
-        </div>
-      </div>
+       // < Product.. >
+        {value=> {
+         const {cart,total}=value;
+        return(
+           <div className="cartItem">
+             <span className="inside-btn onClick={handleCartNav}"></span>
+           </div>
+               <div class="image">
+                 <img src="{product.img.src}" alt="{product description}"></img>
+               </div>
+         )
+}
+// < /Product.. >
     )
-  }
-  export default Product;
+}
+export default Cart;
